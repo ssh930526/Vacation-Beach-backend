@@ -1,0 +1,12 @@
+const express = require('express');
+const router = express.Router();
+const beachesCtrl = require('../controllers/beaches');
+
+router.get('/', beachesCtrl.index);
+router.get('/new', beachesCtrl.new);
+router.get('/fiji', beachesCtrl.fiji);
+router.post('/', beachesCtrl.create);
+
+
+
+module.exports = router;
