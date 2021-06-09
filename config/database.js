@@ -6,8 +6,8 @@ const db = mongoose.connection;
 mongoose.connect(process.env.DATABASE_URI,{
     useNewUrlParser: true,
     useCreateIndex: true,
-    useUnifiedTopology: true,
-    useFindAndModify: false,
+    useFindAndModify: false, 
+    useUnifiedTopology: true, 
 });
 
 // const db = mongoose.connection;
