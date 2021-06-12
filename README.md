@@ -19,7 +19,7 @@ A simple web app that you can choose your next Vaction Place
 ![wireframe](./imgs/ERD.png)
 
 ## Getting Started
-[Clicke here](https://60c50c41ad233d34950a0430--determined-hodgkin-456d99.netlify.app/) to get started
+[Clicke here](https://project3-beach.netlify.app/) to get started
 
 
 ## Furture Enhancements
